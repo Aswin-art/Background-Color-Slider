@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div id="red">
+                <div id="redText">R</div>
+                <input type="range" name="redSlider" id="redSlider" min="0" max="255" value="100">
+                <div id="redValue">100</div>
+            </div>
+            <div id="green">
+                <div id="greenText">G</div>
+                <input type="range" name="greenSlider" id="greenSlider" min="0" max="255" value="100">
+                <div id="greenValue">100</div>
+            </div>
+            <div id="blue">
+                <div id="blueText">B</div>
+                <input type="range" name="blueSlider" id="blueSlider" min="0" max="255" value="100">
+                <div id="blueValue">100</div>
+            </div>
+            <div id="hexcode">
+                <h1 id="textHexcode">jijs</h1>
+            </div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
